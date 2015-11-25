@@ -33,10 +33,10 @@ namespace GasmaskShyvana
             string currentVersion = "0.1";
             Chat.Print("GasmaskShyvana Version: " + currentVersion + " - LOADED.");
             Chat.Print("Checking online version..");
-            if (new WebClient().DownloadString("https://raw.githubusercontent.com/incaner/CancerBuddy/master/CancerDarius/Version.txt") != currentVersion)
-                Chat.Print("Old CancerDarius version!");
+            if (new WebClient().DownloadString("https://raw.githubusercontent.com/princessGasmask/ELOBUDDY/master/GasmaskShyvana/version.txt") != currentVersion)
+                Chat.Print("Old GasmaskShyvana version!");
             else
-                Chat.Print("You have the last version of CancerDarius addon.");
+                Chat.Print("You have the last version of GasmaskShyvana addon.");
 
             // Initialize the classes that we need
             Config.Initialize();
